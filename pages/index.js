@@ -21,7 +21,7 @@ export default function Home() {
 
             <main className="">
                 <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
-                    <Hero title="Developer's Guide to Starting a YouTube Channel" />
+                    <Hero title="Yusufu's own Developer Guide Starting a Youtube Channel" />
                 </section>
                 <section className="text-center p-10">
                     <a
