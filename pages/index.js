@@ -2,7 +2,7 @@ import Head from 'next/head';
 import FAQs from '../components/FAQs';
 import Hero from '../components/Hero';
 import Instructor from '../components/Instructor';
-//import Questions from '../components/Questions';
+import Questions from '../components/Questions';
 import ResumeMissingSomething from '../components/ResumeMissingSomething';
 import Testimonials from '../components/Testimonials';
 import WhatYoullLearn from '../components/WhatYoullLearn';
@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <Head>
                 <title>Yell Inc.</title>
-                <link rel="icon" href="/yusatu.ico" />
+                {/*<link rel="icon" href="/yusatu-icon.png" />*/}
                 <link
                     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,100;1,100&display=swap"
                     rel="stylesheet"
