@@ -2,7 +2,7 @@ import Head from 'next/head';
 import FAQs from '../components/FAQs';
 import Hero from '../components/Hero';
 import Instructor from '../components/Instructor';
-import Questions from '../components/Questions';
+//import Questions from '../components/Questions';
 import ResumeMissingSomething from '../components/ResumeMissingSomething';
 import Testimonials from '../components/Testimonials';
 import WhatYoullLearn from '../components/WhatYoullLearn';
@@ -11,8 +11,8 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>YouTube For Developers</title>
-                <link rel="icon" href="/youtube.png" />
+                <title>Yell Inc.</title>
+                <link rel="icon" href="/yusatu.ico" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,100;1,100&display=swap"
                     rel="stylesheet"
@@ -69,9 +69,9 @@ export default function Home() {
                         <Instructor />
                     </div>
                 </section>
-                {/* <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
+                /* <section className="container mx-auto max-w-6xl py-20 px-6 md:px-20">
                     <Questions />
-                </section> */}
+                </section> */
             </main>
         </div>
     );
